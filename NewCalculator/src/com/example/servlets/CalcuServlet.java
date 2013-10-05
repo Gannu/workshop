@@ -51,7 +51,7 @@ public class CalcuServlet extends HttpServlet {
 		  k= cal.mul(i, j);
 		if(useraction.equals("div"))
 			k= cal.div(i, j);
-		response.getWriter().println("Result is:" +k);
+		response.getWriter().println(k);
 			}
 
 }
